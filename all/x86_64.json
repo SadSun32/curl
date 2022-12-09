@@ -1,0 +1,14 @@
+{ 
+    "docker":{
+        "image": "libcurl",
+        "flags": "-e MYCUSTOMENV=HELLO"
+    },
+    "components":[
+        {
+            "reference": "curl/7.86.0@infotecs/test",
+            "profile": "default",
+            "recipe_dir": ".",
+            "lockfile_use": true
+        }
+    ]
+}

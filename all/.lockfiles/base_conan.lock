@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "ref": "curl/7.86.0@infotecs/test",
+    "requires": [
+     "1",
+     "2"
+    ],
+    "path": "..\\conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "openssl/1.1.1s",
+    "context": "host"
+   },
+   "2": {
+    "ref": "zlib/1.2.13",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4"
+}
